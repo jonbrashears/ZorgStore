@@ -1,0 +1,292 @@
+	*{
+		font-family: "Cooper Black";
+	}
+		
+	.jumbotron {
+	  background-color: #3F47CD;
+	  padding: 1%;
+      margin-bottom: 0;
+	  border-radius: 0;
+    }
+	
+	
+	.jumbotron a{
+	 color: white;
+	 font-size:100px;
+	 text-shadow: 2px 2px 10px black;
+	 -webkit-transition:text-shadow .5s;
+	 transition:text-shadow .5s;
+	}
+	.jumbotron a:hover{
+		color: white;
+		text-decoration: none;
+		text-shadow: 5px 5px navy;
+	}
+	
+	.container h1{
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	
+	
+   .navbar {
+	  background-color: #3F47CC;
+	  margin-bottom: 5%;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  padding-right: 20px;
+      border-radius: 0;
+    }
+	.navbar a:link{
+		color: #99C55E;
+		text-decoration: none;
+	}.navbar a:visited{
+		color: #cc99cc;
+		text-decoration: none;
+	}
+	.navbar a:hover{
+		color: #99ffff;
+		text-decoration: none;
+	}
+	
+	.dropdown-toggle{
+	text-decoration: none;	
+	}
+	
+	.dropdown-toggle:hover{
+		text-decoration: none;
+		color: #99ffff;
+	}
+	
+	.navbar .dropdown{position: relative}
+
+	.navbar .dropdown-item{
+		color: #99C55E;
+		-webkit-transition:background-color .3s;
+		transition:background-color.3s
+		}
+	.navbar .dropdown-menu{
+		position: absolute;
+		background-color: #3F47CD;
+		
+	}
+	
+	.btn-link {color: #99C55E;}
+	.btn-link:hover {color: #fEF200;}
+	
+	.dropdown-item:hover{
+		background-color: #330033
+	}
+	.container-jb {
+		width: 1000px;
+		min-height:450px;
+		margin: auto;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	
+	.fb-jb{
+		clear: both;
+	}
+	
+	.fb-jb h1{
+		font-family: "Cooper Black";
+	}
+	
+	.col-sm-4 {
+		text-align: center;
+	}
+	
+	.row-jb {
+		width: 100%;
+		min-height:450px;
+		
+	}
+	
+	.genre-container {
+		text-align: center;
+		margin-top: 50px;
+	}
+	
+	.genre-item {
+		float: left;
+		width: 222px;
+		height: 40px;
+		text-align: center;
+		margin: 20px;
+		}
+		
+	.genre-item p{
+		font-family: "Cooper Black";
+		font-size: 25px;
+	}	
+	
+	.container-genre-main {
+			width: 900px;
+			min-height: 280px;
+			border-style: solid;
+			border-width: 2px;
+			margin-bottom: 5px;
+			overflow: hidden;
+		}
+	
+	
+	
+	.genre-left {
+		margin-top: 25px;
+		float: left;
+		width: 300px;
+		min-height: 225px;
+		text-align: center;
+		padding: 8px;
+	}
+
+	.genre-right {
+		float: right;
+		width: 500px;
+		min-height: 225px;
+		text-align: left;
+		margin: auto;
+		padding: 5px;
+		padding-left: 0px;
+		overflow:hidden;
+	}
+	
+	.container-cart-main {
+		width: 390px;
+		min-height: 100px;
+		border-style: solid;
+		border-width: 2px;
+		margin-left: 15px;
+		margin-bottom: 5px;
+		overflow: hidden;
+		}
+		
+	.cart-left {
+		margin-top: 25px;
+		float: left;
+		width: 70px;
+		min-height: 100px;
+		text-align: center;
+		padding: 8px;
+	}
+	
+	.cart-right {
+		float: right;
+		width: 300px;
+		min-height: 80px;
+		text-align: left;
+		margin: auto;
+		padding: 5px;
+		padding-left: 0px;
+		overflow:hidden;
+	}
+	
+	.genre-right .more:hover{
+		cursor: pointer;
+		
+	}
+	
+	.genre-right h2{
+		font-size: 20px;
+	}
+	
+	.cart-right h2{
+		font-size: 20px;
+	}
+	.genre-text{
+		font-family: "Cooper Black";
+		color: black;
+		font-size: 25px;
+	}
+
+	.left-main {
+		float: left;
+		text-align: right;
+		min-height: 450px;
+		width: 450px;
+		margin-bottom: 100px;
+	}
+	
+	.right-main{
+		float: right;
+		min-height: 450px;
+		width: 450px;
+		padding: 25px;
+		margin-bottom: 100px;
+	}
+	
+	.jbbutton{
+		background-color: #3F47CC;
+		color: #fEF200;
+	}
+	.jbbutton:hover{
+		background-color: #330033;
+		color: #cc9900;
+	}
+
+	.invoice-container{
+		margin-left: 20px;
+		margin-top: 5px;
+		
+	}
+	
+	#container_added_to_cart{
+		padding-top: 10px;
+		text-align: center;
+	}
+	
+	.container-cart-co{
+		width: 390px;
+		min-height: 55px;
+		border-style: solid;
+		border-width: 2px;
+		margin-left: 15px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	}
+	
+	.container_left{
+		float: left;
+	}
+	.container_right{
+		float: right;
+	}
+	
+	.carousel-inner{
+		text-align: center;
+	}
+	
+	.carousel-inner img {
+      width: 250px;
+      height: 375px;;
+	}
+	
+	.carousel-wrap {
+		margin-top: .02%;
+		min-height: 375px;
+		min-width: 250px;
+		clear: both;
+	}
+	
+	#zorgcarousel{
+		left: 50%;
+		margin-top: 10%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		width: 250px;
+		height: 375px;
+	}
+
+	
+    footer {
+      background-color: #fEF200;
+	  bottom: 0;
+	  margin-top: 50px;
+	  text-align:center;
+	  position:fixed;
+	  width: 100%;
+	  font-family: "Cooper Black";
+    }	
+	
+	
