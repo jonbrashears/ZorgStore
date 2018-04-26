@@ -1,6 +1,2 @@
 # Zorg-s-Store
-
-Welcome!
-
-
-No shoes, no pants, no problem
+Worked as a member of a Scrum team to develop an online bookstore.  Implemented using PHP, mySQL, JavaScript, jQuery, HTML, and CSS
